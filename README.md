@@ -94,7 +94,7 @@ trtexec --onnx=lanenet.onnx --saveEngine=lanenet.engine --verbose
 
 ### 5.TODO
 
-[] 优化DBscan基于密度的聚类算法，使之更快！！！
+[ ] 优化DBscan基于密度的聚类算法，使之更快！！！
 
 
 
