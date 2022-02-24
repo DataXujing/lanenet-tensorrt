@@ -41,7 +41,7 @@ python tools/freeze_graph.py
 
 #2.使用tf2onnx工具将模型转为onnx
 
-我看有大佬准UFF也成功了，官方已经基本废弃UFF Parser了，tf转onnx trt官方推荐使用tf2onnx,因此我们选择这条路。
+我看有大佬有转UFF也成功了，官方已经基本废弃UFF Parser了，tf转onnx trt官方推荐使用tf2onnx,因此我们选择这条路。
 
 ```shell
 python -m tf2onnx.convert -h
