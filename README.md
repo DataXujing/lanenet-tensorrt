@@ -51,7 +51,7 @@ python -m tf2onnx.convert --input ./lanenet.pb --output ./lanenet.onnx --inputs 
 
 # 成功在项目下生成lanenet.onnx
 
-# 方式3生成的pb转onnx
+# 方式2生成的pb转onnx
 python -m tf2onnx.convert --input ./lanenet.pb --output ./lanenet.onnx --inputs lanenet/input_tensor:0 --outputs lanenet/final_binary_output:0,lanenet/final_pixel_embedding_output:0 --opset 11
 
 ```
