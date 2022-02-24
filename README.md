@@ -68,8 +68,8 @@ trtexec --onnx=lanenet.onnx --saveEngine=lanenet.engine --verbose
 
 ### 3.LaneNet TensorRT C++模型加速代码实现
 
-+ 找到了网上聚类算法的开源实现
-+ 后处理部分参考了LaneNet MNN实现的一些代码，并做了重构
++ 找到了网上聚类算法的开源实现:https://github.com/CallmeNezha/SimpleDBSCAN
++ 后处理部分参考了LaneNet MNN实现的一些代码，并做了重构: https://github.com/MaybeShewill-CV/MNN-LaneNet
 + TensorRT可以正常推断，后处理结果正确！！！
 
 ### 4.Demo
